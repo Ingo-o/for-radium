@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/for-radium/static/css/main.00c29fc9.css",
+    "main.js": "/for-radium/static/js/main.a328f085.js",
+    "static/js/787.73fb521c.chunk.js": "/for-radium/static/js/787.73fb521c.chunk.js",
+    "index.html": "/for-radium/index.html",
+    "main.00c29fc9.css.map": "/for-radium/static/css/main.00c29fc9.css.map",
+    "main.a328f085.js.map": "/for-radium/static/js/main.a328f085.js.map",
+    "787.73fb521c.chunk.js.map": "/for-radium/static/js/787.73fb521c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00c29fc9.css",
+    "static/js/main.a328f085.js"
+  ]
+}
