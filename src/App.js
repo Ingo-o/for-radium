@@ -41,7 +41,6 @@ const App = () => {
                 +7 962 99-33-808 <br/> Ingo-o@yandex.ru <br/> Telegram: @Ingo88
             </p>
         </div>
-
     );
 }
 
