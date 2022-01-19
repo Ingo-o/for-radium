@@ -21,6 +21,7 @@ const App = () => {
         if (event.key === " ") {
             changeInscriptionExistence(!inscriptionExistence);
             changeInvisibleMode(false);
+            changeColorMode(false);
         }
     }
 
