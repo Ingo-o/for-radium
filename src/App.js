@@ -20,6 +20,7 @@ const App = () => {
     const toggleInscriptionExistence = (event) => {
         if (event.key === " ") {
             changeInscriptionExistence(!inscriptionExistence);
+            changeInvisibleMode(false);
         }
     }
 
@@ -29,13 +30,17 @@ const App = () => {
              onContextMenu={toggleInvisibleMode}
              onKeyDown={toggleInscriptionExistence}
              tabIndex={'0'}
-             >
+        >
             {inscriptionExistence
                 ? <p onPointerEnter={toggleColorMode} onPointerLeave={toggleColorMode}
-                className={classNames({"colorModeOn": colorMode}, {"invisibleModeOn": invisibleMode})}>
-                Дмитрий Епихин <br/> Начинающий web-программист / Junior Frontend Developer</p>
-                : <p/>}
+                     className={classNames({"colorModeOn": colorMode}, {"invisibleModeOn": invisibleMode}, "inscription")}>
+                    Дмитрий Епихин <br/> Начинающий web-программист / Junior Frontend Developer</p>
+                : <p className="inscription"><br/><br/></p>}
+            <p className="data">
+                +7 962 99-33-808 <br/> Ingo-o@yandex.ru <br/> Telegram: @Ingo88
+            </p>
         </div>
+
     );
 }
 
